@@ -1,0 +1,573 @@
+.justify {
+	text-align: justify;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.color-red {
+	background: linear-gradient(rgba(101, 8, 2, 0.9), rgba(101, 8, 2, 0.9)) !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.padding-lg {
+	padding-top: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .padding-lg, {
+    padding-top: 120px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .padding-lg {
+    padding-top: 120px !important;
+  }
+}
+
+/*=========================================
+  Padding Hero
+=========================================*/
+.padding-hero {
+  padding-top: 170px;
+}
+
+@media only screen and (max-width: 600px) {
+  .padding-hero, {
+    padding-top: 70px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .padding-hero {
+    padding-top: 72px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .padding-hero, {
+    padding-top: 0px !important;
+  }
+}
+
+.all-shadow {
+  box-shadow: 0 0 5px #000;
+}
+
+.top-shadow {
+  box-shadow: 0 -5px 5px -5px #000;
+}
+      
+.right-shadow {
+  box-shadow: -5px 0 5px -5px #000;
+}
+      
+.bottom-shadow {
+  box-shadow: 0 5px 5px -5px #000;
+}
+
+.left-shadow {
+  box-shadow: 5px 0 5px -5px #000;
+}
+
+#bg-login {
+  display:block;
+  position:relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(2, 27, 121, 0.9), rgba(5, 117, 230, 0.9)), url(../images/unud2.jpg);
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 1024px) {
+  #bg-login {
+    background-attachment: fixed;
+  }
+}
+
+#bg-login:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bg-content {
+  display:block;
+  position:relative;
+  width: 100%;
+  height: 150vh;
+  background: linear-gradient(to right, rgba(2, 27, 121, 0.9), rgba(5, 117, 230, 0.9)), url(../images/unud2.jpg);
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 1024px) {
+  #bg-content {
+    background-attachment: fixed;
+  }
+}
+
+#bg-content:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bg-signup {
+  display:block;
+  position:relative;
+  /*width: 100%;
+  height: 300vh;*/
+  min-width:100%;
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(to right, rgba(2, 27, 121, 0.9), rgba(5, 117, 230, 0.9)), url(../images/unud2.jpg);
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 1024px) {
+  #bg-signup {
+    background-attachment: fixed;
+  }
+}
+
+#bg-signup:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#contact .form .btn-login[type="submit"] {
+  background: #650802;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#contact .form .btn-login[type="submit"]:hover {
+  background: #ec6b63;
+}
+
+#contact .form .btn-cabang {
+  border: 2px solid #650802;
+  color: #650802;
+  /*background: #650802;
+  border: 0;*/
+  padding: 10px 24px;
+  /*color: #fff;*/
+  text-align: center;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+#contact .form .btn-cabang:hover {
+  background: #ec6b63;
+  border: 2px solid #ec6b63;
+  color: #fff;
+}
+
+/* Sections Header
+--------------------------------*/
+.section-header h3 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #021b79;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/* Contact Section
+--------------------------------*/
+#daftar {
+  background: #fff;
+}
+
+#daftar .info {
+  color: #333333;
+}
+
+#daftar .info i {
+  font-size: 32px;
+  color: #2dc997;
+  float: left;
+}
+
+#daftar .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+#daftar .info .email p {
+  padding-top: 5px;
+}
+
+#daftar .social-links {
+  padding-bottom: 20px;
+}
+
+#daftar .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#daftar .social-links a:hover {
+  background: #2dc997;
+  color: #fff;
+}
+
+#daftar .form #sendmessage {
+  color: #2dc997;
+  border: 1px solid #2dc997;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#daftar .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#daftar .form #sendmessage.show, #daftar .form #errormessage.show, #daftar .form .show {
+  display: block;
+}
+
+#daftar.form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#daftar .form input, #daftar .form textarea, #daftar .form select  {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#daftar .form button[type="submit"] {
+  background: #0575e6;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#daftar .form button[type="submit"]:hover {
+  background: #021b79;
+}
+
+#hero .actions a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+#hero .btn-daftar {
+  background-color: #0575e6;
+  color: #fff;
+  box-shadow: -3px 3px 3px 0px #000;
+}
+
+#hero .btn-daftar:hover {
+  box-shadow: -5px 5px 5px 5px #000;
+}
+
+#hero .btn-detail {
+  background: linear-gradient(to right, rgba(2, 27, 121, 0.9), rgba(5, 117, 230, 0.9));
+  color: #fff;
+  box-shadow: -3px 3px 3px 0px #000;
+}
+
+#hero .btn-detail:hover {
+  box-shadow: -5px 5px 5px 5px #000;
+}
+
+/* lomba lainnya
+--------------------------------*/
+#lomba-lainnya {
+  padding: 60px 0 60px 0;
+}
+
+#lomba-lainnya .box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  transition: 0.4s;
+}
+
+#lomba-lainnya .icon {
+  float: left;
+}
+
+#lomba-lainnya .icon i {
+  color: #666666;
+  font-size: 80px;
+  transition: 0.5s;
+  line-height: 0;
+}
+
+#lomba-lainnya .icon i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #021b79 0%, #0575e6 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#lomba-lainnya h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#lomba-lainnya h4 a {
+  color: #111;
+}
+
+/*#lomba-lainnya p {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}*/
+
+/*#lomba-lainnya a {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  margin-top: 24px;
+}*/
+
+@media (max-width: 767px) {
+  #lomba-lainnya .box {
+    margin-bottom: 20px;
+  }
+  #lomba-lainnya .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  #lomba-lainnya h4, #lomba-lainnya p {
+    margin-left: 0;
+    text-align: center;
+  }
+  #lomba-lainnya a {
+    margin-left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Hadiah Section
+--------------------------------*/
+#hadiah {
+  /*background: linear-gradient(to right, rgba(2, 27, 121, 0.1), rgba(5, 117, 230, 0.1));*/
+  padding: 60px 0 40px 0;
+}
+
+#hadiah .container {
+  position: relative;
+  z-index: 10;
+}
+
+#hadiah .about-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+#hadiah .about-col .img {
+  position: relative;
+}
+
+/*#hadiah .about-col .img .header {
+  border-radius: 4px 4px 0 0;
+  width: 100% !important;
+}*/
+
+#hadiah .about-col .img>img {
+  background: linear-gradient(45deg, #021b79 0%, #0575e6 100%);
+  border-radius: 4px 4px 0 0;
+  padding: 20px 20px 20px 20px;
+  width: 100% !important;
+}
+
+
+#hadiah .about-col .icon {
+  width: 100px;
+  height: 100px;
+  /*padding-top: 25px;*/
+  text-align: center;
+  position: absolute;
+  background-color: #fff !important;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #fff;
+  left: calc( 50% - 50px);
+  bottom: -50px;
+  transition: 0.3s;
+  margin-top: 10px;
+  /*background-image: url('/asset1/images/logo_prog_100.png');*/
+}
+
+#hadiah .about-col .icon > img{
+  width: 100%;
+}
+
+#hadiah .about-col i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#hadiah .about-col:hover .icon {
+  background-color: #fff;
+}
+
+#hadiah .about-col:hover i {
+  color: #021b79;
+}
+
+#hadiah .about-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 60px 0 12px 0;
+}
+
+#hadiah .about-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+.section-bg {
+  background: #eff5f5;
+}
+
+.invalid-feedback input{
+  display:none;
+  width:100%;
+  margin-top:.25rem;
+  font-size:80%;
+  color:#dc3545;
+  border: 1px solid red;
+}
+
+.media-partner{
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-size: cover;
+  border: 2px solid #021b79;
+  margin-bottom: 5px;
+}
+
+.sponsor-lg{
+  width: 200px;
+  height: 70px;
+  /*background-color: #000;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+  background-size: contain;
+  margin-bottom: 5px;
+}
